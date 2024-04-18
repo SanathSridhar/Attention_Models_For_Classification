@@ -63,12 +63,12 @@ This project requires the following dependencies:
 - Python (>=3.6)
 - See [requirements.txt](requirements.txt) for Python package dependencies.
 
-## Driver Notebook
+## Driver Notebooks
 
-The driver notebook `driver.ipynb` provides an example of how to use the implemented modules and train the text classification model. It demonstrates:
+The driver notebooks `Vannila_Attention_Classifier.ipynb` and `BERT_Classifier.ipynb` provides an example of how to use the implemented modules and train the text classification model. It demonstrates:
 
 - Loading and preprocessing the IMDb dataset.
-- Training the attention-based classification model.
+- Training the vanilla attention-based classification model and BERT model respectively.
 - Evaluating the model's performance on validation and test sets.
 
 ## Results Visualization
