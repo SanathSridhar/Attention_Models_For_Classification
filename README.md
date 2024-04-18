@@ -38,10 +38,8 @@ This file includes functions for text preprocessing, tokenization, and vocabular
 - `process_data`: Processes text data by tokenizing and converting to indices.
 
 ## Usage
-
+To Run the Vannila Classifer:
 Install the requirements.txt and execute the `Vannila_Attention_Classifier.ipynb` Jupyter Notebook file. This notebook contains the code for training, evaluating, and analyzing the Vanilla Attention Classifier on the IMDb movie review dataset.
-
-For importing the trained model into other tasks, simply import the `Attention_Classification_Model` class from `attention_classifier.py`:
 
 ```python
 from attention_classifier import Attention_Classification_Model
@@ -50,7 +48,9 @@ from attention_classifier import Attention_Classification_Model
 model = Attention_Classification_Model()
 
 # Now you can use the model for other tasks, such as inference on new data
-
+```
+To Run the BERT Classifer:
+Install the requirements.txt and execute the `BERT_Classifier.ipynb` Jupyter Notebook file. This notebook contains the code for training, evaluating, and analyzing the BERT Classifier on the IMDb movie review dataset.
 
 ## Setup
 
