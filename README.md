@@ -1,4 +1,4 @@
-# Welcome! Remember to Pay Attention (hehehe)
+# Welcome! Time to pay attention
 
 ## Table of Contents
 
