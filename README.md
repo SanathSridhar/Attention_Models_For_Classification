@@ -45,7 +45,7 @@ Install the requirements.txt and execute the `Vannila_Attention_Classifier.ipynb
 from attention_classifier import Attention_Classification_Model
 
 # Create an instance of the Attention_Classification_Model
-model = Attention_Classification_Model()
+model = Attention_Classification_Model(vocab_size, embed_size, hidden_size)
 
 # Now you can use the model for other tasks, such as inference on new data
 ```
