@@ -75,6 +75,4 @@ The driver notebook `driver.ipynb` provides an example of how to use the impleme
 
 The notebook includes visualization of training and validation loss, training and validation accuracy, and a Receiver Operating Characteristic (ROC) curve.
 
-## License
 
-Specify the license for your project. You can use a standard license like MIT or Apache 2.0.
