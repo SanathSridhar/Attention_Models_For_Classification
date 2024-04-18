@@ -3,16 +3,14 @@
 import torch
 from collections import Counter
 from torch.nn.utils.rnn import pad_sequence
-import spacy
 
-def tokenize(text):
-    nlp = spacy.load("en_core_web_sm")
-    return [token.text for token in nlp(text)]
+def tokenize(text,corpus):
+    return [token.text for token in corpus(text)]
 
-def generate_vocabulary(train_data):
+def generate_vocabulary(train_data,corpus):
     counter = Counter()
     for example in train_data['text']:
-        counter.update(tokenize(example))
+        counter.update(tokenize(example,corpus))
     vocab = sorted(counter, key=counter.get, reverse=True)
     word_to_idx = {word: i for i, word in enumerate(vocab)}
     return word_to_idx
