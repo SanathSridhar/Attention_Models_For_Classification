@@ -1,5 +1,4 @@
-# Project Title
- Vannila Single-Head Attention Classifier
+# Welcome! Remember to Pay Attention (hehehe)
 
 ## Table of Contents
 
