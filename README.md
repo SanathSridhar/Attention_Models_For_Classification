@@ -42,7 +42,13 @@ To Run the Vannila Classifer:
 Install the requirements.txt and execute the `Vannila_Attention_Classifier.ipynb` Jupyter Notebook file. This notebook contains the code for training, evaluating, and analyzing the Vanilla Attention Classifier on the IMDb movie review dataset.
 
 ```python
+from preprocess_texts import generate_vocabulary, process_data
 from attention_classifier import Attention_Classification_Model
+
+#Generate Vocabulary Dictionary
+word_to_idx = generate_vocabulary(data,corpus)
+#Tokenize and convert to indices
+texts, labels = process_data(data, word_to_idx)
 
 # Create an instance of the Attention_Classification_Model
 model = Attention_Classification_Model(vocab_size, embed_size, hidden_size)
@@ -51,10 +57,6 @@ model = Attention_Classification_Model(vocab_size, embed_size, hidden_size)
 ```
 To Run the BERT Classifer:
 Install the requirements.txt and execute the `BERT_Classifier.ipynb` Jupyter Notebook file. This notebook contains the code for training, evaluating, and analyzing the BERT Classifier on the IMDb movie review dataset.
-
-## Setup
-
-Explain how to set up your project. Include installation instructions and any necessary configuration steps.
 
 ## Dependencies
 
